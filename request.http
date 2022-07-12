@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "lapis",
+    "price": 3.00
+}
+
+
+###
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/f1018111-ed23-4059-ad9d-3d25154e09ed
+
+###
+
+PUT http://localhost:4002/products/9e82a30c-b67d-4ab4-b14a-99d1d929150f
+content-type: application/json
+
+{
+    "name": "lapis",
+    "price": 5.00
+}
+
+###
+
+DELETE http://localhost:4002/products/f1f337c2-660e-492b-afb6-d034bf51f23d
